@@ -1,0 +1,2 @@
+python train.py --model_name "roberta-base" --dataset_name "darrow-ai/LegalLensNER" --path_to_save_model "./saved_model" --path_to_save_tokenizer "./saved_tokenizer" --path_to_save_label_list "./saved_label_list/label_list.json"
+python inference.py --dataset_name "darrow-ai/LegalLensNER" --path_to_model "./saved_model" --path_to_tokenizer "./saved_tokenizer" --path_to_label_list "./saved_label_list/label_list.json" --output_file "./predictions_NERLens.tsv"

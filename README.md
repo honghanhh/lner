@@ -1,2 +1,3 @@
-# lner
- LEGALLENS 2024: DETECTING LEGAL VIOLATIONS
+# LegalLens: Leveraging LLMs for Legal Violation Identification in Unstructured Text
+
+(update later)
